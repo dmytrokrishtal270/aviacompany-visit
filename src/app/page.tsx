@@ -183,7 +183,7 @@ export default function Home() {
             <span className="font-bold text-accent">KD digitalee</span>
           </div>
           <div className="flex items-center gap-4">
-            <a href="https://wa.me/yourphone" target="_blank" rel="noopener noreferrer" 
+            <a href="https://wa.me/37258018953" target="_blank" rel="noopener noreferrer" 
                className="text-muted hover:text-accent transition-colors p-2 rounded-full hover:bg-surface-light">
               <WhatsAppIcon />
             </a>
@@ -191,7 +191,7 @@ export default function Home() {
                className="text-muted hover:text-accent transition-colors p-2 rounded-full hover:bg-surface-light">
               <TelegramIcon />
             </a>
-            <a href="mailto:info@example.com"
+            <a href="mailto:dmytrokrishtal270@outlook.com"
                className="text-muted hover:text-accent transition-colors p-2 rounded-full hover:bg-surface-light">
               <EmailIcon />
             </a>
@@ -354,22 +354,22 @@ export default function Home() {
               <div className="card">
                 <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
                 <div className="space-y-4">
-                  <a href="tel:+3726803160" className="flex items-center gap-4 text-muted hover:text-accent transition-colors">
+                  <a href="tel:+37258018953" className="flex items-center gap-4 text-muted hover:text-accent transition-colors">
                     <div className="p-3 rounded-xl bg-accent/10 text-accent">
                       <PhoneIcon />
                     </div>
                     <div>
                       <div className="text-sm text-muted">Phone</div>
-                      <div className="text-foreground">+372 680 3160</div>
+                      <div className="text-foreground">+372 5801 8953</div>
                     </div>
                   </a>
-                  <a href="mailto:krishtaldigital@gmail.com" className="flex items-center gap-4 text-muted hover:text-accent transition-colors">
+                  <a href="mailto:dmytrokrishtal270@outlook.com" className="flex items-center gap-4 text-muted hover:text-accent transition-colors">
                     <div className="p-3 rounded-xl bg-accent/10 text-accent">
                       <EmailIcon />
                     </div>
                     <div>
                       <div className="text-sm text-muted">Email</div>
-                      <div className="text-foreground">krishtaldigital@gmail.com</div>
+                      <div className="text-foreground">dmytrokrishtal270@outlook.com</div>
                     </div>
                   </a>
                   <div className="flex items-start gap-4">
@@ -396,7 +396,7 @@ export default function Home() {
                 <div className="mt-8 pt-6 border-t border-border">
                   <div className="text-sm text-muted mb-4">Connect with us</div>
                   <div className="flex items-center gap-3">
-                    <a href="https://wa.me/yourphone" target="_blank" rel="noopener noreferrer"
+                    <a href="https://wa.me/37258018953" target="_blank" rel="noopener noreferrer"
                        className="p-3 rounded-xl bg-surface-light text-muted hover:text-green-500 hover:bg-green-500/10 transition-all">
                       <WhatsAppIcon />
                     </a>
@@ -404,7 +404,7 @@ export default function Home() {
                        className="p-3 rounded-xl bg-surface-light text-muted hover:text-blue-400 hover:bg-blue-400/10 transition-all">
                       <TelegramIcon />
                     </a>
-                    <a href="mailto:info@example.com"
+                    <a href="mailto:dmytrokrishtal270@outlook.com"
                        className="p-3 rounded-xl bg-surface-light text-muted hover:text-accent hover:bg-accent/10 transition-all">
                       <EmailIcon />
                     </a>
@@ -539,13 +539,13 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Contact Details</h4>
               <div className="space-y-2 text-sm text-muted">
-                <a href="tel:+3726803160" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <a href="tel:+37258018953" className="flex items-center gap-2 hover:text-accent transition-colors">
                   <PhoneIcon className="w-4 h-4" />
-                  +372 680 3160
+                  +372 5801 8953
                 </a>
-                <a href="mailto:krishtaldigital@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <a href="mailto:dmytrokrishtal270@outlook.com" className="flex items-center gap-2 hover:text-accent transition-colors">
                   <EmailIcon className="w-4 h-4" />
-                  krishtaldigital@gmail.com
+                  dmytrokrishtal270@outlook.com
                 </a>
                 <div className="flex items-start gap-2">
                   <MapPinIcon className="w-4 h-4 mt-0.5 flex-shrink-0" />
