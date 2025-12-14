@@ -1,0 +1,40 @@
+services:
+  mailserver:
+    image: analogic/poste.io
+    container_name: mailserver
+    hostname: mail.aerobooker.eu
+    restart: always
+    ports:
+      - "25:25"       # SMTP - receiving mail
+      - "80:80"       # HTTP - Let's Encrypt certificate
+      - "443:443"     # HTTPS - Webmail & Admin Dashboard
+      - "587:587"     # Submission - sending mail (with auth)
+      - "465:465"     # SMTPS - secure SMTP
+      - "993:993"     # IMAPS - secure IMAP (reading mail)
+      - "995:995"     # POP3S - secure POP3 (optional)
+      - "4190:4190"   # Sieve - mail filtering rules
+    environment:
+      # Change to your timezone
+      - TZ=UTC
+      # Enable HTTPS with auto Let's Encrypt
+      - HTTPS=ON
+      # Disable ClamAV antivirus to save RAM (set FALSE to enable, needs 1GB+ RAM)
+      - DISABLE_CLAMAV=TRUE
+      # Disable automatic updates in container
+      - DISABLE_RSPAMD=FALSE
+    volumes:
+      # Persistent data storage
+      - ./mail-data:/data
+    # Required for mail server performance
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    # Health check
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
