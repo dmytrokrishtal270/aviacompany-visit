@@ -191,7 +191,7 @@ export default function Home() {
                className="text-muted hover:text-accent transition-colors p-2 rounded-full hover:bg-surface-light">
               <TelegramIcon />
             </a>
-            <a href="mailto:dmytrokrishtal270@outlook.com"
+            <a href="mailto:info@aerobooker.eu"
                className="text-muted hover:text-accent transition-colors p-2 rounded-full hover:bg-surface-light">
               <EmailIcon />
             </a>
@@ -217,8 +217,9 @@ export default function Home() {
               Leave a Request
               <ArrowRightIcon className="w-5 h-5" />
             </a>
-            <a href="#about" className="btn-secondary">
-              Learn More
+            <a href="mailto:info@aerobooker.eu" className="btn-secondary">
+              <EmailIcon className="w-5 h-5" />
+              info@aerobooker.eu
             </a>
           </div>
 
@@ -363,13 +364,13 @@ export default function Home() {
                       <div className="text-foreground">+372 5801 8953</div>
                     </div>
                   </a>
-                  <a href="mailto:dmytrokrishtal270@outlook.com" className="flex items-center gap-4 text-muted hover:text-accent transition-colors">
+                  <a href="mailto:info@aerobooker.eu" className="flex items-center gap-4 text-muted hover:text-accent transition-colors">
                     <div className="p-3 rounded-xl bg-accent/10 text-accent">
                       <EmailIcon />
                     </div>
                     <div>
                       <div className="text-sm text-muted">Email</div>
-                      <div className="text-foreground">dmytrokrishtal270@outlook.com</div>
+                      <div className="text-foreground">info@aerobooker.eu</div>
                     </div>
                   </a>
                   <div className="flex items-start gap-4">
@@ -404,7 +405,7 @@ export default function Home() {
                        className="p-3 rounded-xl bg-surface-light text-muted hover:text-blue-400 hover:bg-blue-400/10 transition-all">
                       <TelegramIcon />
                     </a>
-                    <a href="mailto:dmytrokrishtal270@outlook.com"
+                    <a href="mailto:info@aerobooker.eu"
                        className="p-3 rounded-xl bg-surface-light text-muted hover:text-accent hover:bg-accent/10 transition-all">
                       <EmailIcon />
                     </a>
@@ -543,9 +544,9 @@ export default function Home() {
                   <PhoneIcon className="w-4 h-4" />
                   +372 5801 8953
                 </a>
-                <a href="mailto:dmytrokrishtal270@outlook.com" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <a href="mailto:info@aerobooker.eu" className="flex items-center gap-2 hover:text-accent transition-colors">
                   <EmailIcon className="w-4 h-4" />
-                  dmytrokrishtal270@outlook.com
+                  info@aerobooker.eu
                 </a>
                 <div className="flex items-start gap-2">
                   <MapPinIcon className="w-4 h-4 mt-0.5 flex-shrink-0" />
